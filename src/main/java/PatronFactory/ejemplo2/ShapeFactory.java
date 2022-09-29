@@ -1,8 +1,8 @@
-package PatronFactory;
+package PatronFactory.ejemplo2;
 
 public class ShapeFactory {
 
-    public Shape getShape(String type) {
+    public ShapeI getShape(String type) {
         if(type.equals("C")) {
             return new Circle();
         } else if(type.equals("R")) {

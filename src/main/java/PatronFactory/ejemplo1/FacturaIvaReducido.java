@@ -1,4 +1,4 @@
-package patronfactory2;
+package PatronFactory.ejemplo1;
 
 public class FacturaIvaReducido extends Factura{
 
