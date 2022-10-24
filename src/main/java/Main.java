@@ -1,7 +1,7 @@
 import patronfabricaabstracto.AbstractFactory;
 import patronfabricaabstracto.FactoryProducer;
-import patronfabricaabstracto.Shape;
-import singleton.SingleObject;
+import patronfabricaabstracto.Shapee;
+
 
 public class Main {
 
@@ -53,9 +53,9 @@ public class Main {
         //SingleObject object = new SingleObject();
 
         //Get the only object available
-        SingleObject object = SingleObject.getInstance();
+       // SingleObject object = SingleObject.getInstance();
         //show the message
-        object.showMessage();
+        //object.showMessage();
     }
 
 }

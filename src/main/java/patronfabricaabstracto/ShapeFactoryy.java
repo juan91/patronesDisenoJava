@@ -1,12 +1,12 @@
 package patronfabricaabstracto;
 
-public class ShapeFactory extends AbstractFactory {
+public class ShapeFactoryy extends AbstractFactory {
     @Override
-    public Shape getShape(String shapeType){
+    public Shapee getShape(String shapeType){
         if(shapeType.equalsIgnoreCase("RECTANGLE")){
-            return new Rectangle();
+            return new Rectanglee();
         }else if(shapeType.equalsIgnoreCase("SQUARE")){
-            return new Square();
+            return new Squaree();
         }
         return null;
     }

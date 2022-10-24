@@ -1,6 +1,6 @@
 package patronbuilder;
 
-public abstract class ColdDrink implements Item {
+public abstract class ColdDrink implements Itemm {
 
     @Override
     public Packing packing() {

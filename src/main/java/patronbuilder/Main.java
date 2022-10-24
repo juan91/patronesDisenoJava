@@ -1,7 +1,5 @@
 package patronbuilder;
 
-import singleton.SingleObject;
-
 public class Main {
 
 

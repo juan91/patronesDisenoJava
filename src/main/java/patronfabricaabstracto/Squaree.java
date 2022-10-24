@@ -1,6 +1,6 @@
 package patronfabricaabstracto;
 
-public class Square implements Shape {
+public class Squaree implements Shapee {
 
     @Override
     public void draw() {

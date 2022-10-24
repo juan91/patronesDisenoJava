@@ -1,6 +1,6 @@
 package patronbuilder;
 
-public interface Item {
+public interface Itemm {
     public String name();
     public Packing packing();
     public float price();

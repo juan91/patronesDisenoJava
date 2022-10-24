@@ -1,5 +1,5 @@
 package patronfabricaabstracto;
 
 public abstract class AbstractFactory {
-    public abstract Shape getShape(String shapeType);
+    public abstract Shapee getShape(String shapeType);
 }

@@ -1,5 +1,5 @@
 package patronfabricaabstracto;
 
-public interface Shape {
+public interface Shapee {
     void draw();
 }
